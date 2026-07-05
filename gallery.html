@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Eswar Rao Events</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ============================================
+         NAVIGATION SECTION
+         ============================================ -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-crown"></i></span>
+                <span class="logo-text">Eswar Rao Events</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         PAGE HEADER
+         ============================================ -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <h1 class="page-title">Our <span class="gold-text">Gallery</span></h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Gallery</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         GALLERY INTRO
+         ============================================ -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Portfolio</span>
+                <h2 class="section-title">Explore Our <span class="gold-text">Work</span></h2>
+                <div class="title-decoration">
+                    <span></span>
+                    <i class="fas fa-gem"></i>
+                    <span></span>
+                </div>
+                <p class="section-description">Browse through our collection of beautifully crafted events. Click on any image to view in full screen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         GALLERY FILTER TABS
+         ============================================ -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-tabs">
+                <button class="tab-btn active" data-filter="all">All</button>
+                <button class="tab-btn" data-filter="wedding">Wedding</button>
+                <button class="tab-btn" data-filter="birthday">Birthday</button>
+                <button class="tab-btn" data-filter="engagement">Engagement</button>
+                <button class="tab-btn" data-filter="housewarming">Housewarming</button>
+                <button class="tab-btn" data-filter="decorations">Decorations</button>
+            </div>
+        </div>
+
+        <!-- ============================================
+             WEDDING GALLERY
+             ============================================ -->
+        <div id="wedding-gallery" class="gallery-section-content">
+            <div class="container">
+                <h3 class="gallery-heading">Wedding Gallery</h3>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://images.pexels.com/photos/5814187/pexels-photo-5814187.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Wedding Decoration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Elegant Wedding Setup</h4>
+                            <p>Grand floral decoration with golden accents</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/5814187/pexels-photo-5814187.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://images.pexels.com/photos/1114425/pexels-photo-1114425.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Wedding Mandap" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Traditional Mandap</h4>
+                            <p>Sacred wedding ceremony setup</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1114425/pexels-photo-1114425.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Wedding Reception" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Reception Stage</h4>
+                            <p>Luxury reception decoration</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://images.pexels.com/photos/169190/pexels-photo-169190.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Wedding Stage" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Royal Stage Setup</h4>
+                            <p>Regal wedding stage design</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/169190/pexels-photo-169190.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================
+             BIRTHDAY GALLERY
+             ============================================ -->
+        <div id="birthday-gallery" class="gallery-section-content">
+            <div class="container">
+                <h3 class="gallery-heading">Birthday Gallery</h3>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="birthday">
+                    <img src="https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Birthday Party" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Kids Birthday Party</h4>
+                            <p>Colorful balloon decoration</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="birthday">
+                    <img src="https://images.pexels.com/photos/434382/pexels-photo-434382.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Birthday Cake" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Celebration Setup</h4>
+                            <p>Elegant birthday celebration</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/434382/pexels-photo-434382.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="birthday">
+                    <img src="https://images.pexels.com/photos/70573/pexels-photo-70573.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Adult Birthday" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Adult Birthday Bash</h4>
+                            <p>Sophisticated party setup</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/70573/pexels-photo-70573.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="birthday">
+                    <img src="https://images.pexels.com/photos/1598566/pexels-photo-1598566.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Theme Party" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Theme Birthday</h4>
+                            <p>Custom themed celebration</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1598566/pexels-photo-1598566.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================
+             ENGAGEMENT GALLERY
+             ============================================ -->
+        <div id="engagement-gallery" class="gallery-section-content">
+            <div class="container">
+                <h3 class="gallery-heading">Engagement Gallery</h3>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="engagement">
+                    <img src="https://images.pexels.com/photos/1024248/pexels-photo-1024248.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Engagement Ring" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Ring Ceremony</h4>
+                            <p>Beautiful ring exchange setup</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1024248/pexels-photo-1024248.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="engagement">
+                    <img src="https://images.pexels.com/photos/1721345/pexels-photo-1721345.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Engagement Stage" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Engagement Stage</h4>
+                            <p>Elegant floral stage design</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1721345/pexels-photo-1721345.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="engagement">
+                    <img src="https://images.pexels.com/photos/1616113/pexels-photo-1616113.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Engagement Decoration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Decor Setup</h4>
+                            <p>Premium engagement decor</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1616113/pexels-photo-1616113.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="engagement">
+                    <img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Couple Engagement" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Couple Celebration</h4>
+                            <p>Romantic engagement setup</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================
+             HOUSEWARMING GALLERY
+             ============================================ -->
+        <div id="housewarming-gallery" class="gallery-section-content">
+            <div class="container">
+                <h3 class="gallery-heading">Housewarming Gallery</h3>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="housewarming">
+                    <img src="https://images.pexels.com/photos/32850/pexels-photo-32850.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Housewarming Entrance" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Entrance Decoration</h4>
+                            <p>Traditional welcome setup</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/32850/pexels-photo-32850.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="housewarming">
+                    <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Traditional Setup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Pooja Setup</h4>
+                            <p>Sacred ceremony arrangement</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="housewarming">
+                    <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Modern Home" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Modern Celebration</h4>
+                            <p>Contemporary housewarming</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="housewarming">
+                    <img src="https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Home Decor" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Floral Decor</h4>
+                            <p>Beautiful flower arrangements</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================
+             DECORATIONS GALLERY
+             ============================================ -->
+        <div id="decorations-gallery" class="gallery-section-content">
+            <div class="container">
+                <h3 class="gallery-heading">Decorations Gallery</h3>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="decorations">
+                    <img src="https://images.pexels.com/photos/1125136/pexels-photo-1125136.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Flower Decoration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Floral Arrangements</h4>
+                            <p>Stunning flower decorations</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1125136/pexels-photo-1125136.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="decorations">
+                    <img src="https://images.pexels.com/photos/1612662/pexels-photo-1612662.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Light Decoration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Lighting Design</h4>
+                            <p>Magical lighting effects</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1612662/pexels-photo-1612662.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="decorations">
+                    <img src="https://images.pexels.com/photos/5814170/pexels-photo-5814170.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Stage Decor" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Stage Decoration</h4>
+                            <p>Grand stage design</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/5814170/pexels-photo-5814170.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="decorations">
+                    <img src="https://images.pexels.com/photos/1589896/pexels-photo-1589896.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Balloon Decoration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Balloon Art</h4>
+                            <p>Creative balloon arrangements</p>
+                            <button class="view-btn" data-image="https://images.pexels.com/photos/1589896/pexels-photo-1589896.jpeg?auto=compress&cs=tinysrgb&w=1200"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CTA SECTION
+         ============================================ -->
+    <section class="cta-section section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Impressed by Our <span class="gold-text">Work?</span></h2>
+                <p>Let us create something beautiful for your special occasion!</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                    <a href="services.html" class="btn btn-outline">Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FULL SCREEN GALLERY MODAL
+         ============================================ -->
+    <div class="gallery-modal" id="galleryModal">
+        <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+        <img src="" alt="Gallery Image" id="modalImage">
+        <button class="modal-nav prev" id="modalPrev"><i class="fas fa-chevron-left"></i></button>
+        <button class="modal-nav next" id="modalNext"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- ============================================
+         FLOATING ACTION BUTTONS
+         ============================================ -->
+    <div class="floating-buttons">
+        <a href="tel:+919866956232" class="floating-btn phone-btn" title="Call Us">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <a href="https://wa.me/919866956232?text=Hello%20Eswar%20Events!" target="_blank" class="floating-btn whatsapp-float-btn" title="WhatsApp Us">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- ============================================
+         FOOTER SECTION
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                            <span class="logo-icon"><i class="fas fa-crown"></i></span>
+                            <span class="logo-text">Eswar Rao Events</span>
+                        </a>
+                        <p>Creating unforgettable moments with elegance and excellence.</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="reviews.html">Reviews</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="services.html">Wedding Planning</a></li>
+                            <li><a href="services.html">Birthday Celebrations</a></li>
+                            <li><a href="services.html">Engagement Ceremonies</a></li>
+                            <li><a href="services.html">Housewarming Events</a></li>
+                            <li><a href="services.html">Corporate Events</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-contact">
+                        <h4>Contact Us</h4>
+                        <p><i class="fas fa-user"></i> <strong>Thappita Eswar Rao</strong></p>
+                        <p><i class="fas fa-map-marker-alt"></i> 1-43, Ramalayam Street,<br>Kinthalavani Peta Village,<br>Bobbili Mandal, Vizianagaram District,<br>Andhra Pradesh - 535573</p>
+                        <p><i class="fas fa-phone-alt"></i> <a href="tel:+919866956232">+91 98669 56232</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Eswar Rao Events. All Rights Reserved.</p>
+                <p>Designed with <i class="fas fa-heart" style="color: #d4af37;"></i> for Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
